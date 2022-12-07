@@ -248,11 +248,14 @@ function open_menu() {
 	btn_open = document.getElementById('open_menu')
 	btn_close = document.getElementById('close_menu')
 	menu = document.getElementById('navigation')
+	body = document.getElementsByTagName('body')[0]
+
 
 	btn_close.classList.toggle('show_btn')
 	btn_close.classList.toggle('hide_btn')
 	btn_open.classList.toggle('show_btn')
 	btn_open.classList.toggle('hide_btn')
+
 	
 	if (menu.style.display != 'block') {
 		menu.style.display = 'block'
@@ -261,7 +264,12 @@ function open_menu() {
 		menu.style.display = 'none'
 	}
 
-
+	if (body.style.overflow != 'hidden') {
+		body.style.overflow =  'hidden'
+	}
+	else {
+		body.style.overflow =  'initial'
+	}
 
 }
 function close_menu() {
