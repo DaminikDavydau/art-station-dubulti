@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Main Page</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div id="page_wrapper">
+		<header>
+			<div id="header_phone">
+				<a><img id='logo_phone' src="dubulti_logo.png"></a>
+				<div id="button_wrapper">
+					<button onclick="open_menu()" id="close_menu" class="hide_btn"><img src="close_menu.png"></button>
+					<button onclick="open_menu()" id="open_menu" class="show_btn"><img src="menu_burg.png"></button>
+				</div>
+			</div>
+			<nav id="navigation">
+				<div id="logo_wrapper">
+					<a><img id='logo' src="dubulti_logo.png"></a>
+				</div>
+
+				<a class="nav_item" href="">About</a>
+
+				<a class="nav_item" href="">Exhibitions</a>
+
+				<button class="nav_item accordion">Visit us<svg class='angle-icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></button>
+				<div class="panel panel1">
+					<p class="panel_item">Today the museum is open from 10 to 6 pm.</p>
+					<a class="panel_item" href="">Address: Zigfrida Meierovica avenue 3, Jurmala</a>
+					<a class="panel_item" href="">Exhibition: ART=SHELTER</a>
+				</div>
+				
+				<button class="nav_item accordion">Language<svg class='angle-icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></button>
+				<div class="panel panel2">
+					<a class="panel_item" href="">Latvian</a>
+					<a class="panel_item" href="">English</a>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div id="head_photo_wrapper">
+				<img id="head_photo" src="dubulti_head.png">
+			</div>
+
+			<div id="main_content">
+				<h1>Experience the joy of art, together.</h1>
+				<section id="info">
+					<div class="info_item">
+						<h2>
+							Open hours
+						</h2>
+						<p>
+							The museum is open today from 09:00 to 18:30
+Free entrance
+						</p>
+					</div>
+					<div class="info_item">
+						<h2>
+							Address
+						</h2>
+						<p>
+							Zigfrida Meierovica avenue 3, Jurmala, LV-2015
+						</p>
+					</div>
+					<div class="info_item">
+						<h2>
+							Special Closures 
+						</h2>
+						<p>
+							The museum will be closed November 8
+						</p>
+					</div>
+				</section>
+
+				<section id="current_exhibition">
+					<h2>
+						Current exhibition
+					</h2>
+					<div>
+						<img class="current_exhib_photo" src="image_6.png">
+						<time>
+							April 21 - October 2, 2022
+						</time>
+						<a href=""> <h3>
+							Art=shelter
+						</h3></a>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus tortor auctor ante viverra pellentesque. Maecenas id mi id sapien dapibus venenatis in id lorem.
+						</p>
+					</div>
+				</section>
+
+				<section id="past_exhibitions">
+					<h2>
+						Past exhibitions
+					</h2>
+					<div id="exhib_wrapper">
+						<div class="past_exhib">
+							<img src="image_7.png">
+							<div class="past_exhib_info">
+								<time>November 17–January 31, 2022</time>
+								<h3>
+									Ritums Ivanovs. Vērotāja laiks
+								</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus tortor auctor ante viverra pellentesque. Maecenas id mi id sapien dapibus venenatis in id lorem. <a href=""><span>Read more</span><span class="arrow">&rarr;</span></a>
+								</p>
+								
+							</div>
+							
+						</div>
+
+						<div class="past_exhib">
+							<img src="image_8.png">
+							<div class="past_exhib_info">
+								<time>
+									June 18–September 09, 2021
+								</time>
+								<h3>
+									Tūlīt. Sarmīte Māliņa, Kristaps Kalns
+								</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus tortor auctor ante viverra pellentesque. Maecenas id mi id sapien dapibus venenatis in id lorem. <a href=""><span>Read more</span><span class="arrow">&rarr;</span></a>
+								</p>
+								
+							</div>
+						</div>					
+					</div>
+					<a class="link_all" href=""><span>See all exhibitions</span><span class="arrow_all">&rarr;</span></a>
+				</section>
+
+				<section id="jurmala">
+					<h2>
+						Jūrmala
+					</h2>
+					<div class="jurmala_video">
+						<video controls muted loop>
+						  	<source src=".mp4" type="video/mp4">
+						  	<source src=".ogg" type="video/ogg">
+						Your browser does not support the video tag.
+						</video>
+					</div>
+				</section>
+
+			</div>
+		</main>
+	</div>
+
+		<footer>
+			<div id="footer_wrapper">
+				<div>
+					<h4>
+						Working hours
+					</h4>
+					<p>
+						Everyday <br id="w_hours">From 09:00 to 18:30
+					</p>
+		<!--
+					
+					<p>
+						Tue: 09:00 - 18:30
+					</p>
+					<p>
+						Wed: 09:00 - 18:30
+					</p>
+					<p>
+						Thu: 09:00 - 18:30
+					</p>
+					<p>
+						Fri: 09:00 - 18:30
+					</p>
+					<p>
+						Sat: 09:00 - 18:30
+					</p>
+					<p>
+						Sun: 09:00 - 18:30
+					</p>
+		-->
+				</div>
+				<div>
+					<h4>
+						Address
+					</h4>
+					<a href="">Zigfrida Meierovica avenue 3, <br>Jurmala, LV-2015</a>
+					<a href="">Find transport on 1188.lv</a>
+					
+				</div>
+				<div id="location">
+					<h4>
+						Location
+					</h4>
+					<!--<iframe src=""></iframe>-->
+					<img src="image_map.png">
+				</div>
+
+				<hr>
+
+				<div>
+					<h4>
+						About
+					</h4>
+					<a href="">About Us</a>
+					<a href="">Contact Us</a>
+				</div>
+				<div>
+					<h4>
+						Stay connected
+					</h4>
+					<a href="">Follow Us On Facrbook</a>
+					<a href="">Follow Us On Instagram</a>
+				</div>
+				<div id='footer_logos'>
+					<div>
+						<h4>
+							Orgonized by
+						</h4>
+						<img src="">
+					</div>
+					<div>
+						<h4>
+							Supported by
+						</h4>
+						<img src="">
+					</div>
+				</div>
+
+			</div>
+		</footer>
+
+<script type="text/javascript">
+	let acc = document.getElementsByClassName("accordion");
+
+for (let i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    let panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + 1 + "px";
+    } 
+  });
+}
+
+
+function open_menu() {
+	btn_open = document.getElementById('open_menu')
+	btn_close = document.getElementById('close_menu')
+	menu = document.getElementById('navigation')
+
+	btn_close.classList.toggle('show_btn')
+	btn_close.classList.toggle('hide_btn')
+	btn_open.classList.toggle('show_btn')
+	btn_open.classList.toggle('hide_btn')
+	
+	if (menu.style.display != 'block') {
+		menu.style.display = 'block'
+	}
+	else {
+		menu.style.display = 'none'
+	}
+
+
+
+}
+function close_menu() {
+	btn_open = document.getElementById('open_menu')
+	btn_close = document.getElementById('close_menu')
+
+	btn_close.class = 'hide_btn'
+	btn_open.class = 'show_btn'
+
+	
+}
+</script>
+</body>
+</html>
