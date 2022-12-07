@@ -423,6 +423,10 @@ footer div#footer_logos {
 		height: 45px;
 		background-color: white;
 	}
+	#button_wrapper img {
+		width: 45px;
+		height: 45px;
+	}
 	.hide_btn {
 		position: absolute;
 		display: none;
